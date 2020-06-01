@@ -124,12 +124,32 @@ _Note: this data visualization is really funny to me, because it’s highly gene
 ![5](https://github.com/sidxi/week-four/blob/master/Bonus/plot%20-%20PopularScience%20-%20x-red%20y-value.png)
 
 # Errors I had
--	Voyant error
+
+The first error I encountered was a Yoyant error that most of the class seemed to be dealing with. Luckily, I was able to implement the fix in the discord with no issues.
+
+![voyant error](https://github.com/sidxi/week-four/blob/master/Week4%20Voyant%20Error%20-%20Failed%20Attempt%20to%20Create%20a%20Corpus.PNG)
+
+My next series of errors all occurred while I was trying to topic model. It started out with more innocuous errors such as 
+
+![zip](https://github.com/sidxi/week-four/blob/master/Question%20-%20zip%20issue.PNG)
+
+which I was able to fix quite easily. I even helped a fellow classmate with the error, which is _so_ nice to be able to do! 
+
+![zip fix](https://github.com/sidxi/week-four/blob/master/Week4%20Topic%20Modelling%20Zip%20Fix.PNG)
+
+My next set of errors all had to do with topic modelling - this was definitely the area I had the most trouble with this week. First, I had a few errors that seemed to be fairly common: 
+
+![no tm package](https://github.com/sidxi/week-four/blob/master/Week4%20TM%20error%20no%20package%20called%20'tm'.PNG)
+
+![no topicmodels package](https://github.com/sidxi/week-four/blob/master/Week4%20TM%20error%20no%20package%20topicmodels.PNG)
+
 -	Topic modelling errors (zip, no tm, no topicmodels)
--	“Whoops” errors – I would forget to run a line of code, or skip a few lines of code
-o	Example: *insert image*
+
 -	The following package is masked. Once I figured out what it was, I figured that since only one package was being ignored, I’d press on without fixing it and if everything broke then I’d try the fix I found
 -	So many errors with the last step of topic modelling. Thank you Dr. Graham for helping with my last one!
+
+I also had a few errors where I definitely made the mistake. -	“Whoops” errors – I would forget to run a line of code, or skip a few lines of code
+o	Example: *insert image*
 
 # Questions I asked
 **Question 1**
