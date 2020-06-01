@@ -147,20 +147,32 @@ Luckily, both were discussed within the discord also. For the first one, I had t
 
 ![no tm fix](https://github.com/sidxi/week-four/blob/master/Week4%20TM%20FIX%20no%20package%20called%20'tm'.PNG)
 
-For the second, I had to add two lines of code to the top of my code, and then re-run everything. The code was as follows
+For the second, I had to install the topic models package. In fact, I had to install a few packages that r told me were missing, including one called 'pals'. This package ended up causing me some trouble a bit later on, when I got the following error:
 
-```r install.packages("tm") . and then library(tm) ```
+![alphabet error 1](https://github.com/sidxi/week-four/blob/master/Week4%20Error%20could%20not%20find%20function%20alphabet.PNG)
 
-jvfdlff
+When I tried fixing it by installing alphabet(20) the same way I had tried to install other packages (hey - it had worked up until now!), I got this error
 
+![alphabet error 2](https://github.com/sidxi/week-four/blob/master/Week4%20Error%20alphabet(20)%20not%20available%20for%20version%204.0.0.PNG)
 
--	Topic modelling errors (zip, no tm, no topicmodels)
+When I asked about it in the discord, Dr. Graham was an enormous help - he figured out that I could fix it by ignoring ```scale_fill_manual(values = paste0(alphabet(20), "FF"), name = "decade") +``` in the code (by putting a # in front of it). Dr. Graham also figured out what the issue had been!
 
--	The following package is masked. Once I figured out what it was, I figured that since only one package was being ignored, I’d press on without fixing it and if everything broke then I’d try the fix I found
--	So many errors with the last step of topic modelling. Thank you Dr. Graham for helping with my last one!
+![alphabet error cause](https://github.com/sidxi/week-four/blob/master/alphabet%20error%20cause%20-%20pals.PNG)
 
-I also had a few errors where I definitely made the mistake. -	“Whoops” errors – I would forget to run a line of code, or skip a few lines of code
-o	Example: *insert image*
+One error that occurred which contributed to my learning but I ultimately didn't fix was this one:
+
+![masked](https://github.com/sidxi/week-four/blob/master/Week4%20error%20Reshape2%20masked.PNG)
+
+Once I figured out what was actually happening, I decided that since only one package was being ignored, I’d press on without fixing it and if everything broke then I’d try the [fix I found](https://stackoverflow.com/questions/39137110/what-does-the-following-object-is-masked-from-packagexxx-mean). 
+
+I also had a few "whoops!" errors where I definitely made the mistake. For example, I would forget to run a line of code individually, or skip a few lines of code.
+
+![ran together](https://github.com/sidxi/week-four/blob/master/Week4%20Error%20A%20moment%20where%20I%20forgot%20to%20run%202%20lines%20separately%20and%20tried%20to%20run%20them%20together.PNG)
+
+![skipped 3 lines](https://github.com/sidxi/week-four/blob/master/Week4%20accidentally%20skipped%203%20lines%20of%20code.PNG)
+1[skipped 3 lines fixed](https://github.com/sidxi/week-four/blob/master/Week4%20when%20including%20the%203%20lines%20I%20skipped.PNG)
+
+Ultimately, these were good for me to take stock of the fact that I really needed to pay attention to my work!
 
 # Questions I asked
 **Question 1**
