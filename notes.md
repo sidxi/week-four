@@ -109,12 +109,12 @@ _Note: this data visualization is really funny to me, because it’s highly gene
     *	Answer is here: ```r top5termsPerTopic <- terms(topicModel, 5) ```
 
 *	Bonus Thoughts
-  * [I love it when my homework comes with a Buzzfeed quiz!](https://www.buzzfeed.com/andyneuenschwander/can-you-guess-the-disney-movie-based-on-its-barcode) [(found here](http://www.zachwhalen.net/posts/imj-a-web-based-tool-for-visual-culture-macroanalytics/))
-  * Initial thoughts on the Popular Science Monthly covers
-    *	Lots of WW2 content – makes sense based on the years covered
-    *	Mostly drawings, so the occasional picture is quite striking (such as these ones: 1941 May; 1941 October) 
-    *	You can really see the racist stereotypes in 1945 January
-  *	Some of the images I got!
+    * [I love it when my homework comes with a Buzzfeed quiz!](https://www.buzzfeed.com/andyneuenschwander/can-you-guess-the-disney-movie-based-on-its-barcode) [(found here](http://www.zachwhalen.net/posts/imj-a-web-based-tool-for-visual-culture-macroanalytics/))
+    * Initial thoughts on the Popular Science Monthly covers
+      *	Lots of WW2 content – makes sense based on the years covered
+      *	Mostly drawings, so the occasional picture is quite striking (such as these ones: 1941 May; 1941 October) 
+      *	You can really see the racist stereotypes in 1945 January
+    *	Some of the images I got!
   
 ![1](https://github.com/sidxi/week-four/blob/master/Bonus/barcode%20-%20PopularScience%20-%20w804%20h344%20nosmoothing.png)
 
