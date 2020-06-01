@@ -116,11 +116,15 @@ _Note: this data visualization is really funny to me, because it’s highly gene
     *	You can really see the racist stereotypes in 1945 January
   *	Some of the images I got!
   
-Insert
+![1](https://github.com/sidxi/week-four/blob/master/Bonus/barcode%20-%20PopularScience%20-%20w804%20h344%20nosmoothing.png)
 
-Images
+![2](https://github.com/sidxi/week-four/blob/master/Bonus/barcode%20-%20PopularScience%20-%20w804%20h344%20smoothingcolourpalettes(experimental).png)
 
-Here
+![3](https://github.com/sidxi/week-four/blob/master/Bonus/plot%20-%20PopularScience%20-%20x-hue%20y-brightness%202.png)
+
+![4](https://github.com/sidxi/week-four/blob/master/Bonus/plot%20-%20PopularScience%20-%20x-hue%20y-saturation.png)
+
+![5](https://github.com/sidxi/week-four/blob/master/Bonus/plot%20-%20PopularScience%20-%20x-red%20y-value.png)
 
 # Errors I had
 -	Voyant error
@@ -133,8 +137,8 @@ o	Example: *insert image*
 # Questions I asked
 **Question 1**
 
-Insert image here
+![zip](https://github.com/sidxi/week-four/blob/master/Question%20-%20zip%20issue.PNG)
 
 **Question 2**
 
-Insert image here
+![alphabet](https://github.com/sidxi/week-four/blob/master/Question%20-%20alphabet%20issue.PNG)
