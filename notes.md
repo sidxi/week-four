@@ -15,7 +15,7 @@
   *	Word list: All the words in your corpus. 
 *	Corpus analysis: a form of text analysis which allows you to make comparisons between textual objects at a large scale (so-called ‘distant reading’)
 *	Imj: a tool for creating a rapid visualization of a corpus of images, so that you can determine whether or not you might like to look into more complex tools for deeper analysis. Imj works in a web browser with your computer’s memory.
-*	MALLET: **_MA_chine _L_earning for _L_anguag_E_ _T_oolkit**; a Java-based package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text
+*	MALLET: **MAchine Learning for LanguagE Toolkit**; a Java-based package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text
 *	Project (in R): having a ‘project’ in R means that R knows where to look for data, and where to save your work or restore from.
 *	set.seed: enables the machine to generate the same sequence of random numbers every time we do these calculations (used for topic modelling in R)
 *	Voyant: Voyant Tools is an open-source, web-based application for performing text analysis. It supports scholarly reading and interpretation of texts or corpus, particularly by scholars in the digital humanities, but also by students and the general public. It can be used to analyze online texts or ones uploaded by users
@@ -32,6 +32,7 @@
 * https://www.laurenceanthony.net/software/antconc/
 * http://mallet.cs.umass.edu/
 * http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/
+* https://senderle.github.io/topic-modeling-tool/documentation/2017/01/06/quickstart.html
 * https://stackoverflow.com/questions/39137110/what-does-the-following-object-is-masked-from-packagexxx-mean
 * http://www.zachwhalen.net/posts/imj-a-web-based-tool-for-visual-culture-macroanalytics/
 * https://gist.github.com/asabaylus/3071099
@@ -82,28 +83,23 @@ _Note: this data visualization is really funny to me, because it’s highly gene
   
 ![frequency of south](https://github.com/sidxi/week-four/blob/master/Week4%20Voyant%20frequency%20of%20'south'.png)
 
-    * HTML for south: 
-    <dl> <iframe style='width: 424px; height: 296px;' src='https://voyant-tools.org/tool/Trends/?query=south&corpus=fb23e8e883a177174bd134553d41a0c5'></iframe> </dl>
-
-    *	There seems to be a major increase in the importance of “New South Wales”
+ * There seems to be a major increase in the importance of “New South Wales”
     
   *	"Indians"
     *	Clustered preoccupation with “Indians”
 
 ![frequency of indians](https://github.com/sidxi/week-four/blob/master/Week4%20Voyant%20frequency%20of%20'indians'.png)
 
-    *	HTML for Indians: <dl><iframe style='width: 424px; height: 296px;' src='https://voyant-tools.org/tool/Trends/?query=indians&corpus=fb23e8e883a177174bd134553d41a0c5'></iframe></dl>
-
-*	My own Voyant exercise: Kentucky Newspapers in 1921 with the words “derby winner” on the page: https://voyant-tools.org/?corpus=e07880a44bb35ae172b2653ccf75d4a7
+*	[My own Voyant exercise (Kentucky Newspapers in 1921 with the words “derby winner” on the page) can be found here](https://voyant-tools.org/?corpus=e07880a44bb35ae172b2653ccf75d4a7)
   * I had some issue trying to grab data for this, so eventually I just pasted the plain text URLs into Voyant. When I have the time, I'd like to go back and try and figure out what I've been missing
-  *	Unrelated, but I also found this neat article while I was trying to narrow down what might be an interesting year to look at: https://www.history.com/news/the-kentucky-derbys-forgotten-black-jockeys
+  *	Unrelated, but I also found [this neat article](https://www.history.com/news/the-kentucky-derbys-forgotten-black-jockeys) while I was trying to narrow down what might be an interesting year to look at!
 *	AntConc Search Operator wildcard settings
-  *	** * ** = zero or more characters
-  *	** + ** = zero or one character
-  *	? = any one character
-  *	@ = zero or one word
-  *	# = any one word
-  *	! = search term OR search term
+  * zero or more characters = *
+  *	zero or one character = +
+  *	any one character = ?
+  *	zero or one word = @
+  *	any one word = #
+  *	search term OR search term = !
 *	AntConc wom?n vs m?n results (showing a whole lot of sexism - yikes)
   *	Wom?n = 6099 lines
   *	M?n = 30204 lines
@@ -112,17 +108,20 @@ _Note: this data visualization is really funny to me, because it’s highly gene
   *	Following Wallace, I tried identifying my own topics
   *	Something I really appreciated this week was how you would ask us to find spots in the code and encourage critical thinking about how the code was constructed
     *	Ex: “we’ll rearrange things just so that we get the top say 5 terms per topic; these 5 words will give us a sense of what the topic is about. Do you spot where you might change that to say 10 terms?”
-    *	Answer is here: top5termsPerTopic <- terms(topicModel, 5)
+    *	Answer is here: ```r top5termsPerTopic <- terms(topicModel, 5) ```
 
 *	Bonus Thoughts
-  * https://www.buzzfeed.com/andyneuenschwander/can-you-guess-the-disney-movie-based-on-its-barcode This was fun to try out! (found here: http://www.zachwhalen.net/posts/imj-a-web-based-tool-for-visual-culture-macroanalytics/)
+  * [I love it when my homework comes with a Buzzfeed quiz!](https://www.buzzfeed.com/andyneuenschwander/can-you-guess-the-disney-movie-based-on-its-barcode) [(found here](http://www.zachwhalen.net/posts/imj-a-web-based-tool-for-visual-culture-macroanalytics/))
   * Initial thoughts on the Popular Science Monthly covers
     *	Lots of WW2 content – makes sense based on the years covered
     *	Mostly drawings, so the occasional picture is quite striking (such as these ones: 1941 May; 1941 October) 
     *	You can really see the racist stereotypes in 1945 January
   *	Some of the images I got!
+  
 Insert
+
 Images
+
 Here
 
 # Errors I had
