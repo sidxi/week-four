@@ -80,7 +80,7 @@ _Note: this data visualization is really funny to me, because it’s highly gene
   *	"South" (there seems to be a major increase in the importance of “New South Wales”)
   
 ![frequency of south](https://github.com/sidxi/week-four/blob/master/Week4%20Voyant%20frequency%20of%20'south'.png)
-    
+
   *	"Indians" (clustered preoccupation)
 
 ![frequency of indians](https://github.com/sidxi/week-four/blob/master/Week4%20Voyant%20frequency%20of%20'indians'.png)
