@@ -2,7 +2,6 @@
 * [New terms, alphabetical order](#New-terms,-alphabetical-order)
 * [Resources that helped me this week](#Resources-that-helped-me-this-week)
 * [Other notes and random thoughts](#Other-notes-and-random-thoughts)
-* [Errors I had](#Errors-I-had)
 * [Questions I asked](#Questions-I-asked)
 
 # New terms, alphabetical order:
@@ -122,57 +121,6 @@ _Note: this data visualization is really funny to me, because it’s highly gene
 ![4](https://github.com/sidxi/week-four/blob/master/Bonus/plot%20-%20PopularScience%20-%20x-hue%20y-saturation.png)
 
 ![5](https://github.com/sidxi/week-four/blob/master/Bonus/plot%20-%20PopularScience%20-%20x-red%20y-value.png)
-
-# Errors I had
-
-The first error I encountered was a Yoyant error that most of the class seemed to be dealing with. Luckily, I was able to implement the fix in the discord with no issues.
-
-![voyant error](https://github.com/sidxi/week-four/blob/master/Week4%20Voyant%20Error%20-%20Failed%20Attempt%20to%20Create%20a%20Corpus.PNG)
-
-My next series of errors all occurred while I was trying to topic model. It started out with more innocuous errors such as 
-
-![zip](https://github.com/sidxi/week-four/blob/master/Question%20-%20zip%20issue.PNG)
-
-which I was able to fix quite easily. I even helped a fellow classmate with the error, which is _so_ nice to be able to do! 
-
-![zip fix](https://github.com/sidxi/week-four/blob/master/Week4%20Topic%20Modelling%20Zip%20Fix.PNG)
-
-My next set of errors all had to do with topic modelling - this was definitely the area I had the most trouble with this week. First, I had a few errors that seemed to be fairly common: 
-
-![no tm package](https://github.com/sidxi/week-four/blob/master/Week4%20TM%20error%20no%20package%20called%20'tm'.PNG)
-
-![no topicmodels package](https://github.com/sidxi/week-four/blob/master/Week4%20TM%20error%20no%20package%20topicmodels.PNG)
-
-Luckily, both were discussed within the discord also. For the first one, I had to do the following:
-
-![no tm fix](https://github.com/sidxi/week-four/blob/master/Week4%20TM%20FIX%20no%20package%20called%20'tm'.PNG)
-
-For the second, I had to install the topic models package. In fact, I had to install a few packages that r told me were missing, including one called 'pals'. This package ended up causing me some trouble a bit later on, when I got the following error:
-
-![alphabet error 1](https://github.com/sidxi/week-four/blob/master/Week4%20Error%20could%20not%20find%20function%20alphabet.PNG)
-
-When I tried fixing it by installing alphabet(20) the same way I had tried to install other packages (hey - it had worked up until now!), I got this error
-
-![alphabet error 2](https://github.com/sidxi/week-four/blob/master/Week4%20Error%20alphabet(20)%20not%20available%20for%20version%204.0.0.PNG)
-
-When I asked about it in the discord, Dr. Graham was an enormous help - he figured out that I could fix it by ignoring ```scale_fill_manual(values = paste0(alphabet(20), "FF"), name = "decade") +``` in the code (by putting a # in front of it). Dr. Graham also figured out what the issue had been!
-
-![alphabet error cause](https://github.com/sidxi/week-four/blob/master/alphabet%20error%20cause%20-%20pals.PNG)
-
-One error that occurred which contributed to my learning but I ultimately didn't fix was this one:
-
-![masked](https://github.com/sidxi/week-four/blob/master/Week4%20error%20Reshape2%20masked.PNG)
-
-Once I figured out what was actually happening, I decided that since only one package was being ignored, I’d press on without fixing it and if everything broke then I’d try the [fix I found](https://stackoverflow.com/questions/39137110/what-does-the-following-object-is-masked-from-packagexxx-mean). 
-
-I also had a few "whoops!" errors where I definitely made the mistake. For example, I would forget to run a line of code individually, or skip a few lines of code.
-
-![ran together](https://github.com/sidxi/week-four/blob/master/Week4%20Error%20A%20moment%20where%20I%20forgot%20to%20run%202%20lines%20separately%20and%20tried%20to%20run%20them%20together.PNG)
-
-![skipped 3 lines](https://github.com/sidxi/week-four/blob/master/Week4%20accidentally%20skipped%203%20lines%20of%20code.PNG)
-1[skipped 3 lines fixed](https://github.com/sidxi/week-four/blob/master/Week4%20when%20including%20the%203%20lines%20I%20skipped.PNG)
-
-Ultimately, these were good for me to take stock of the fact that I really needed to pay attention to my work!
 
 # Questions I asked
 **Question 1**
