@@ -143,6 +143,17 @@ My next set of errors all had to do with topic modelling - this was definitely t
 
 ![no topicmodels package](https://github.com/sidxi/week-four/blob/master/Week4%20TM%20error%20no%20package%20topicmodels.PNG)
 
+Luckily, both were discussed within the discord also. For the first one, I had to do the following:
+
+![no tm fix](https://github.com/sidxi/week-four/blob/master/Week4%20TM%20FIX%20no%20package%20called%20'tm'.PNG)
+
+For the second, I had to add two lines of code to the top of my code, and then re-run everything. The code was as follows
+
+```r install.packages("tm") . and then library(tm) ```
+
+jvfdlff
+
+
 -	Topic modelling errors (zip, no tm, no topicmodels)
 
 -	The following package is masked. Once I figured out what it was, I figured that since only one package was being ignored, I’d press on without fixing it and if everything broke then I’d try the fix I found
