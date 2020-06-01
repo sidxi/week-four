@@ -63,9 +63,7 @@ barplot(keywords, main="Common Keywords", xlab="Keywords", ylab="Number of Artic
 
 ![common keywords](https://github.com/sidxi/week-four/blob/master/Week4%20Rplot%20-%20Common%20Keywords.png)
 
-_Note: this data visualization is really funny to me, because it’s highly generic_
-
-  *	In terms of patterns – the first one would be worth investigating. The second, I'm not so sure.
+_Note: this data visualization is really funny to me, because it’s highly generic In terms of patterns – the first one would be worth investigating. The second, I'm not so sure._
 
 *	You can really see how Voyant encourages its users to first take a broad (macro) view and then dig into the (micro) context of the text/document/data being analyzed _through the infrastructure of the site_ (word cloud (& other macro visualization tools) AND being able to quickly click to see all the instances of a word in context in your bottom right panel)
   *	“the pleasure of seeing text differently” – what a great quote from Stefan Sinclair
@@ -74,10 +72,10 @@ _Note: this data visualization is really funny to me, because it’s highly gene
   *	Entering into a dialogue with the text – context: 
     *	History is a “composite of the sources and not merely a retelling of any one of them” ([Roy Rosenzweig Center for History and New Media, 2017, p. 3](https://rrchnm.org/wordpress/wp-content/uploads/2017/11/digital-history-and-argument.RRCHNM.pdf))
 *	Ask yourself (re: Voyant)
-   *	What is this about? What words would I expect to see as describing the text?
-   *	What does this text say about something that matters to me like “friendship”?
-   *	What words in the Cirrus word cloud make sense, and what words are anomalous?
-   *	How does the language of the text change over the span of the text? Are some words more important in the beginning and some at the end? Could there be framing words?
+    *	What is this about? What words would I expect to see as describing the text?
+    *	What does this text say about something that matters to me like “friendship”?
+    *	What words in the Cirrus word cloud make sense, and what words are anomalous?
+    *	How does the language of the text change over the span of the text? Are some words more important in the beginning and some at the end? Could there be framing words?
 * Some words in the Voyant exercise:
   *	"South"
   
