@@ -131,5 +131,10 @@ o	Example: *insert image*
 -	So many errors with the last step of topic modelling. Thank you Dr. Graham for helping with my last one!
 
 # Questions I asked
-* First topic modelling error
-* Alphabet(20) error
+**Question 1**
+
+Insert image here
+
+**Question 2**
+
+Insert image here
