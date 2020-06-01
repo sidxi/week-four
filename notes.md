@@ -1,9 +1,9 @@
 # Quick Links
-* [New terms, alphabetical order](New-terms-alphabetical-order)
-* [Resources that helped me this week](Resources-that-helped-me-this-week)
-* [Other notes and random thoughts](Other-notes-and-random-thoughts)
-* [Errors I had](Errors-I-had)
-* [Questions I asked](Questions-I-asked)
+* [New terms, alphabetical order](#New-terms,-alphabetical-order)
+* [Resources that helped me this week](#Resources-that-helped-me-this-week)
+* [Other notes and random thoughts](#Other-notes-and-random-thoughts)
+* [Errors I had](#Errors-I-had)
+* [Questions I asked]#(Questions-I-asked)
 
 # New terms, alphabetical order:
 * AntConc: A freeware corpus analysis toolkit for concordancing and text analysis (key terms as follows)
