@@ -89,18 +89,18 @@ _Note: this data visualization is really funny to me, because it’s highly gene
 ![frequency of indians](https://github.com/sidxi/week-four/blob/master/Week4%20Voyant%20frequency%20of%20'indians'.png)
 
 *	[My own Voyant exercise (Kentucky Newspapers in 1921 with the words “derby winner” on the page) can be found here](https://voyant-tools.org/?corpus=e07880a44bb35ae172b2653ccf75d4a7)
-  * I had some issue trying to grab data for this, so eventually I just pasted the plain text URLs into Voyant. When I have the time, I'd like to go back and try and figure out what I've been missing
-  *	Unrelated, but I also found [this neat article](https://www.history.com/news/the-kentucky-derbys-forgotten-black-jockeys) while I was trying to narrow down what might be an interesting year to look at!
+    * I had some issue trying to grab data for this, so eventually I just pasted the plain text URLs into Voyant. When I have the time, I'd like to go back and try and figure out what I've been missing
+    *	Unrelated, but I also found [this neat article](https://www.history.com/news/the-kentucky-derbys-forgotten-black-jockeys) while I was trying to narrow down what might be an interesting year to look at!
 *	AntConc Search Operator wildcard settings
-  * zero or more characters = *
-  *	zero or one character = +
-  *	any one character = ?
-  *	zero or one word = @
-  *	any one word = #
-  *	search term OR search term = !
+    * zero or more characters = *
+    *	zero or one character = +
+    *	any one character = ?
+    *	zero or one word = @
+    *	any one word = #
+    *	search term OR search term = !
 *	AntConc wom?n vs m?n results (showing a whole lot of sexism - yikes)
-  *	Wom?n = 6099 lines
-  *	M?n = 30204 lines
+    *	Wom?n = 6099 lines
+    *	M?n = 30204 lines
 * Topic Modelling thoughts 
   *	I picked 10 topics because it was the default
   *	Following Wallace, I tried identifying my own topics
